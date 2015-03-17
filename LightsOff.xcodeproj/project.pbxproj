@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A898D431A660AB70060AD4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A898D421A660AB70060AD4E /* AppDelegate.swift */; };
+		2A898D451A660AB70060AD4E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A898D441A660AB70060AD4E /* MainViewController.swift */; };
+		2A898D481A660AB70060AD4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A898D461A660AB70060AD4E /* Main.storyboard */; };
+		2A898D4A1A660AB70060AD4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A898D491A660AB70060AD4E /* Images.xcassets */; };
+		2A898D4D1A660AB70060AD4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A898D4B1A660AB70060AD4E /* LaunchScreen.xib */; };
+		2A898D591A660AB70060AD4E /* LightsOffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A898D581A660AB70060AD4E /* LightsOffTests.swift */; };
+		2A898D641A660C530060AD4E /* LightContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A898D631A660C530060AD4E /* LightContainerView.swift */; };
+		2A898D661A66111F0060AD4E /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A898D651A66111F0060AD4E /* LightView.swift */; };
+		2A99C2041A6676C30096FE6C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A99C2031A6676C30096FE6C /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A898D531A660AB70060AD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A898D351A660AB70060AD4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A898D3C1A660AB70060AD4E;
+			remoteInfo = LightsOff;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A898D3D1A660AB70060AD4E /* LightsOff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightsOff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A898D411A660AB70060AD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A898D421A660AB70060AD4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A898D441A660AB70060AD4E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2A898D471A660AB70060AD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A898D491A660AB70060AD4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A898D4C1A660AB70060AD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2A898D521A660AB70060AD4E /* LightsOffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightsOffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A898D571A660AB70060AD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A898D581A660AB70060AD4E /* LightsOffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightsOffTests.swift; sourceTree = "<group>"; };
+		2A898D631A660C530060AD4E /* LightContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightContainerView.swift; sourceTree = "<group>"; };
+		2A898D651A66111F0060AD4E /* LightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightView.swift; sourceTree = "<group>"; };
+		2A99C2031A6676C30096FE6C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A898D3A1A660AB70060AD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A898D4F1A660AB70060AD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A898D341A660AB70060AD4E = {
+			isa = PBXGroup;
+			children = (
+				2A99C2021A6676BD0096FE6C /* Images */,
+				2A898D3F1A660AB70060AD4E /* LightsOff */,
+				2A898D551A660AB70060AD4E /* LightsOffTests */,
+				2A898D3E1A660AB70060AD4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A898D3E1A660AB70060AD4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A898D3D1A660AB70060AD4E /* LightsOff.app */,
+				2A898D521A660AB70060AD4E /* LightsOffTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A898D3F1A660AB70060AD4E /* LightsOff */ = {
+			isa = PBXGroup;
+			children = (
+				2A898D621A660C020060AD4E /* UIFragment */,
+				2A898D421A660AB70060AD4E /* AppDelegate.swift */,
+				2A898D441A660AB70060AD4E /* MainViewController.swift */,
+				2A898D461A660AB70060AD4E /* Main.storyboard */,
+				2A898D491A660AB70060AD4E /* Images.xcassets */,
+				2A898D4B1A660AB70060AD4E /* LaunchScreen.xib */,
+				2A898D401A660AB70060AD4E /* Supporting Files */,
+			);
+			path = LightsOff;
+			sourceTree = "<group>";
+		};
+		2A898D401A660AB70060AD4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A898D411A660AB70060AD4E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A898D551A660AB70060AD4E /* LightsOffTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A898D581A660AB70060AD4E /* LightsOffTests.swift */,
+				2A898D561A660AB70060AD4E /* Supporting Files */,
+			);
+			path = LightsOffTests;
+			sourceTree = "<group>";
+		};
+		2A898D561A660AB70060AD4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A898D571A660AB70060AD4E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A898D621A660C020060AD4E /* UIFragment */ = {
+			isa = PBXGroup;
+			children = (
+				2A898D631A660C530060AD4E /* LightContainerView.swift */,
+				2A898D651A66111F0060AD4E /* LightView.swift */,
+			);
+			path = UIFragment;
+			sourceTree = "<group>";
+		};
+		2A99C2021A6676BD0096FE6C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2A99C2031A6676C30096FE6C /* Default-568h@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A898D3C1A660AB70060AD4E /* LightsOff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A898D5C1A660AB70060AD4E /* Build configuration list for PBXNativeTarget "LightsOff" */;
+			buildPhases = (
+				2A898D391A660AB70060AD4E /* Sources */,
+				2A898D3A1A660AB70060AD4E /* Frameworks */,
+				2A898D3B1A660AB70060AD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightsOff;
+			productName = LightsOff;
+			productReference = 2A898D3D1A660AB70060AD4E /* LightsOff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A898D511A660AB70060AD4E /* LightsOffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A898D5F1A660AB70060AD4E /* Build configuration list for PBXNativeTarget "LightsOffTests" */;
+			buildPhases = (
+				2A898D4E1A660AB70060AD4E /* Sources */,
+				2A898D4F1A660AB70060AD4E /* Frameworks */,
+				2A898D501A660AB70060AD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A898D541A660AB70060AD4E /* PBXTargetDependency */,
+			);
+			name = LightsOffTests;
+			productName = LightsOffTests;
+			productReference = 2A898D521A660AB70060AD4E /* LightsOffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A898D351A660AB70060AD4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zhangyu;
+				TargetAttributes = {
+					2A898D3C1A660AB70060AD4E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2A898D511A660AB70060AD4E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2A898D3C1A660AB70060AD4E;
+					};
+				};
+			};
+			buildConfigurationList = 2A898D381A660AB70060AD4E /* Build configuration list for PBXProject "LightsOff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A898D341A660AB70060AD4E;
+			productRefGroup = 2A898D3E1A660AB70060AD4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A898D3C1A660AB70060AD4E /* LightsOff */,
+				2A898D511A660AB70060AD4E /* LightsOffTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A898D3B1A660AB70060AD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A898D481A660AB70060AD4E /* Main.storyboard in Resources */,
+				2A99C2041A6676C30096FE6C /* Default-568h@2x.png in Resources */,
+				2A898D4D1A660AB70060AD4E /* LaunchScreen.xib in Resources */,
+				2A898D4A1A660AB70060AD4E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A898D501A660AB70060AD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A898D391A660AB70060AD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A898D451A660AB70060AD4E /* MainViewController.swift in Sources */,
+				2A898D661A66111F0060AD4E /* LightView.swift in Sources */,
+				2A898D641A660C530060AD4E /* LightContainerView.swift in Sources */,
+				2A898D431A660AB70060AD4E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A898D4E1A660AB70060AD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A898D591A660AB70060AD4E /* LightsOffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A898D541A660AB70060AD4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A898D3C1A660AB70060AD4E /* LightsOff */;
+			targetProxy = 2A898D531A660AB70060AD4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A898D461A660AB70060AD4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A898D471A660AB70060AD4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A898D4B1A660AB70060AD4E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A898D4C1A660AB70060AD4E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A898D5A1A660AB70060AD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A898D5B1A660AB70060AD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A898D5D1A660AB70060AD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightsOff/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A898D5E1A660AB70060AD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightsOff/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A898D601A660AB70060AD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LightsOffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightsOff.app/LightsOff";
+			};
+			name = Debug;
+		};
+		2A898D611A660AB70060AD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LightsOffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightsOff.app/LightsOff";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A898D381A660AB70060AD4E /* Build configuration list for PBXProject "LightsOff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A898D5A1A660AB70060AD4E /* Debug */,
+				2A898D5B1A660AB70060AD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A898D5C1A660AB70060AD4E /* Build configuration list for PBXNativeTarget "LightsOff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A898D5D1A660AB70060AD4E /* Debug */,
+				2A898D5E1A660AB70060AD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A898D5F1A660AB70060AD4E /* Build configuration list for PBXNativeTarget "LightsOffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A898D601A660AB70060AD4E /* Debug */,
+				2A898D611A660AB70060AD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A898D351A660AB70060AD4E /* Project object */;
+}
